@@ -1,149 +1,138 @@
 {
-    "name": "SkeuoCord Mobile Light",
+    "name": "SkeuoCord Mobile Light (No Gradients)",
     "description": "A mobile port attempt of Marda33's SkeuoCord theme (Light version). Gradients and background images not supported.",
     "authors": [
         {
             "name": "Marda33 (Original Desktop)",
-            "id": null // Add ID if known, otherwise null is fine
+            "id": null
         },
         {
-            "name": "Ported by [Your Name/Alias]", // Replace with your name/alias
-            "id": null // Add your Discord ID if you want
+            "name": "Ported by AI",
+            "id": null
         }
     ],
     "semanticColors": {
-        // Core Text
         "HEADER_PRIMARY": [
-            "#1E2124" // Dark text for headers
+            "#1E2124"
         ],
         "HEADER_SECONDARY": [
-            "#393D42" // Slightly lighter dark text
+            "#393D42"
         ],
         "TEXT_NORMAL": [
-            "#2E3338" // Standard dark text
+            "#2E3338"
         ],
         "TEXT_MUTED": [
-            "#5c6064" // Greyed-out text (e.g., channel topics)
+            "#5c6064"
         ],
         "TEXT_LINK": [
-            "#006AEF" // Standard link blue
+            "#006AEF"
         ],
-        // Interactive Elements
         "INTERACTIVE_NORMAL": [
-            "#4f545c" // Default state for interactive elements (buttons, etc.)
+            "#4f545c"
         ],
         "INTERACTIVE_ACTIVE": [
-            "#2E3338" // Active/pressed state - darker
+            "#2E3338"
         ],
         "INTERACTIVE_MUTED": [
-            "#8E9297" // Disabled/muted interactive elements
+            "#8E9297"
         ],
-        // Backgrounds - Mapped from SkeuoCord gradients (using bottom colors generally)
         "BACKGROUND_PRIMARY": [
-            "#E7E6E3" // Main chat background (from --mainbg_light_bottom)
+            "#E7E6E3"
         ],
         "BACKGROUND_SECONDARY": [
-            "#DAD8D2" // Side panels, user popouts (from --listbg_light_bottom)
+            "#DAD8D2"
         ],
         "BACKGROUND_SECONDARY_ALT": [
-            "#DAD8D2" // Alternative secondary background
+            "#DAD8D2"
         ],
         "BACKGROUND_TERTIARY": [
-            "#C6C6C3" // Outermost background (server list, settings) (from --sidebar_light_bottom)
+            "#C6C6C3"
         ],
         "BACKGROUND_ACCENT": [
-            "#7289DA" // Mention highlights, etc. (using a standard light blue/blurple)
+            "#7289DA"
         ],
         "BACKGROUND_FLOATING": [
-            "#FFFFFF" // Modals, context menus (standard white for light theme popups)
+            "#FFFFFF"
         ],
         "BACKGROUND_MOBILE_PRIMARY": [
-            "#E7E6E3" // Primary view background on mobile (Chat)
+            "#E7E6E3"
         ],
         "BACKGROUND_MOBILE_SECONDARY": [
-            "#DAD8D2" // Drawer/sidebar background on mobile (Channels/DMs list)
+            "#DAD8D2"
         ],
         "BACKGROUND_NESTED_FLOATING": [
-            "#FFFFFF" // Popups within popups
+            "#FFFFFF"
         ],
-        // Modifiers (Hover states are less relevant on mobile but needed)
         "BACKGROUND_MESSAGE_HOVER": [
-            "#E0DFDC" // Slight darken of primary bg for simulated hover
+            "#E0DFDC"
         ],
         "BACKGROUND_MODIFIER_HOVER": [
-            "#D0CEC9" // Slight darken of secondary bg
+            "#D0CEC9"
         ],
         "BACKGROUND_MODIFIER_ACTIVE": [
-            "#C9C5BF" // Active selection (e.g., voice channel connected) (from --cell_light_bottom)
+            "#C9C5BF"
         ],
         "BACKGROUND_MODIFIER_SELECTED": [
-            "#B7B6B2" // Selected item (e.g., current text channel) (from --listbg_light_top)
+            "#B7B6B2"
         ],
         "BACKGROUND_MODIFIER_ACCENT": [
-            "#CDCBC6" // Subtle accents, often borders or dividers
+            "#CDCBC6"
         ],
-        // Specific UI Areas
         "CHANNELTEXTAREA_BACKGROUND": [
-            "#D3D3D3" // Text input area background (using --toolbar_light_top for contrast)
+            "#D3D3D3"
         ],
         "CHANNELS_DEFAULT": [
-            "#4f545c" // Default channel name color in list
+            "#4f545c"
         ],
         "TEXT_DANGER": [
-            "#D83C3E" // Standard light theme red
+            "#D83C3E"
         ],
         "KEYBOARD": [
-            "#FFFFFF" // Keyboard background (standard light)
+            "#FFFFFF"
         ],
         "CHANNEL_ICON": [
-            "#5c6064" // Icons in channel list (#, lock, speaker)
+            "#5c6064"
         ],
         "CHAT_BACKGROUND": [
-            "#E7E6E3" // Explicitly setting chat background again
+            "#E7E6E3"
         ],
-         // Status Colors
         "STATUS_GREEN_600": [
-            "#3BA55D" // Online
+            "#3BA55D"
         ],
         "STATUS_YELLOW_200": [
-             "#FAA61A" // Idle
+             "#FAA61A"
          ],
         "STATUS_RED_400": [
-             "#ED4245" // DND
+             "#ED4245"
         ],
         "STATUS_GREY_200": [
-             "#747F8D" // Offline/Invisible
+             "#747F8D"
         ]
     },
     "rawColors": {
-        // Mapping core grays and primary colors based on the SkeuoCord palette
-        "PRIMARY_100": "#FFFFFF",       // Usually white or very light grey
-        "PRIMARY_200": "#F2F3F5",       // Slightly off-white
-        "PRIMARY_300": "#E3E5E8",       // Light grey
-        "PRIMARY_360": "#DAD8D2",       // List background equivalent
-        "PRIMARY_400": "#C6C6C3",       // Tertiary background equivalent
-        "PRIMARY_500": "#AEAEAE",       // Header bottom equivalent (mid-grey)
-        "PRIMARY_600": "#E7E6E3",       // Main background equivalent
-        "PRIMARY_630": "#DAD8D2",       // Secondary background equivalent
-        "PRIMARY_660": "#C6C6C3",       // Tertiary background again maybe?
-        "PRIMARY_700": "#4f545c",       // Dark grey for interactive/muted text
-        "PRIMARY_800": "#2E3338",       // Main text color
-        "PRIMARY_900": "#1E2124",       // Header/darkest text
-
-        // Brand/Accent colors (using standard blues)
+        "PRIMARY_100": "#FFFFFF",
+        "PRIMARY_200": "#F2F3F5",
+        "PRIMARY_300": "#E3E5E8",
+        "PRIMARY_360": "#DAD8D2",
+        "PRIMARY_400": "#C6C6C3",
+        "PRIMARY_500": "#AEAEAE",
+        "PRIMARY_600": "#E7E6E3",
+        "PRIMARY_630": "#DAD8D2",
+        "PRIMARY_660": "#C6C6C3",
+        "PRIMARY_700": "#4f545c",
+        "PRIMARY_800": "#2E3338",
+        "PRIMARY_900": "#1E2124",
         "BRAND_100": "#E8EFFF",
-        "BRAND_260": "#5865F2",       // Discord Blurple (can adjust if SkeuoCord implies a different blue)
-        "BRAND_360": "#7289DA",       // Lighter Blurple/Accent
-        "BRAND_500": "#5865F2",       // Main Brand color
-        "BRAND_560": "#FFFFFF",       // Text on brand color buttons
-        "BRAND_900": "#4752C4",       // Darker brand color
-
-        // Standard semantic colors
+        "BRAND_260": "#5865F2",
+        "BRAND_360": "#7289DA",
+        "BRAND_500": "#5865F2",
+        "BRAND_560": "#FFFFFF",
+        "BRAND_900": "#4752C4",
         "WHITE_500": "#FFFFFF",
         "BLACK_500": "#000000",
-        "RED_400": "#D83C3E",         // Danger Red (light theme)
-        "YELLOW_300": "#FAA61A",      // Warning Yellow
-        "GREEN_360": "#3BA55D"        // Success/Online Green
+        "RED_400": "#D83C3E",
+        "YELLOW_300": "#FAA61A",
+        "GREEN_360": "#3BA55D"
     },
     "spec": 2
 }
